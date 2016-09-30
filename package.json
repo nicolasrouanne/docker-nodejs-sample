@@ -1,0 +1,14 @@
+{
+	"name": "docker_web_app",
+	"version": "1.0.0",
+	"description": "First Node.js app on Docker",
+	"author": "Nicolas Rouanne <nicolas.rouanne@gybe.io>",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.13.3",
+		"mongoose": "^4.2.1"
+	}
+}
